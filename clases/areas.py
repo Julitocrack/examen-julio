@@ -14,4 +14,9 @@ class Areas:
         altura = float(input("Ingrese la altura del triángulo: "))
         self.resultado = (base * altura) / 2
         print(f"El área del triángulo es: {self.resultado}")
+
+    def area_circulo(self):
+        radio = float(input("Ingrese el radio del círculo: "))
+        self.resultado = 3.1416 * (radio ** 2)
+        print(f"El área del círculo es: {self.resultado}")
  
