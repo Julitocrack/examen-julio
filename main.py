@@ -16,6 +16,8 @@ def main():
         elif opcion == "2":
             calculadora.area_triangulo()
         elif opcion == "3":
+            calculadora.area_circulo()
+        elif opcion == "4":
             print("Saliendo del programa...")
             break
         else:
